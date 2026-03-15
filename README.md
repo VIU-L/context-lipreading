@@ -8,7 +8,7 @@
 **On the way...**
 
 ## Acknowledgements
-This project is largely based on [VSP-LLM](https://github.com/Sally-SH/VSP-LLM?tab=readme-ov-file).
+This project is largely adapted from [VSP-LLM](https://github.com/Sally-SH/VSP-LLM?tab=readme-ov-file).
 
 ## Repository descriptions
 The datasets require a **lot** of preprocessing.   
@@ -19,4 +19,7 @@ If you are using MultiVSR, you can refer to the `vsp_llm_preprocess_extra` files
 **Due to copyright reasons we can't directly provide the processed dataset.**  
 2. Follow the instructions in [VSP-LLM](https://github.com/Sally-SH/VSP-LLM?tab=readme-ov-file) about preprocessing (4 steps to make dataset and 4 steps to make VSP-LLM-style token deduplication counts).
 In particular, you need to use the `avhubert_preprocess_override` files provided in our repository to override those from the AV-HuBERT repository.
-3. Use `train.sh` and `decode.sh` from `VSL_LLM/scripts` to train and infer on LRS2; use `train_multivsr.sh` and `decode_multivsr.sh` to train and infer on MultiVSR.
+3. Use `train.sh` and `decode.sh` from `VSL_LLM/scripts` to train and infer on LRS2; use `train_multivsr.sh` and `decode_multivsr.sh` to train and infer on MultiVSR
+   
+## Environment setups
+In order to use the Qwen3VL model from transformers, you need a higher version of python (preferrably 3.11) and then install the required packages from VSL-LLM + AV-HuBERT.
