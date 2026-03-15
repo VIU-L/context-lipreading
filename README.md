@@ -7,7 +7,7 @@
 ## Report 
 **On the way...**
 
-## Acknoledgements
+## Acknowledgements
 This project is largely based on [VSP-LLM](https://github.com/Sally-SH/VSP-LLM?tab=readme-ov-file).
 
 ## Repository descriptions
